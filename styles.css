@@ -564,6 +564,7 @@ body {
     .nav-img {
         display: block;
         z-index: 100000;
+        cursor: pointer;
     }
     .nav {
         position: absolute;
@@ -739,10 +740,12 @@ body {
         width: max-content;
         margin: 20px auto 0 auto;
         cursor: pointer;
+        background: none;
+        border: none;
     }
     .slider {
         margin-right: 5px;
-        padding: 3px;
+        padding: 5px;
         border-radius: 50%;
         border: 2px solid hsl(12, 88%, 59%);
         transition: 0.5s all ease;

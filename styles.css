@@ -59,7 +59,8 @@ body {
     background: hsl(12, 88%, 59%);
     padding: 14px 30px;
     border-radius: 30px;
-    width: max-content;
+    max-width: max-content;
+    width: 100%;
     box-shadow: 1px 12px 20px -10px hsl(12, 86%, 67%);
     height: max-content;
     transition: 0.5s all ease;
@@ -67,6 +68,10 @@ body {
 }
 
 .start:hover {
+    background: hsl(12, 82%, 76%);
+}
+
+.intro-start:hover {
     background: hsl(12, 82%, 76%);
 }
 
@@ -193,7 +198,8 @@ body {
     font-size: 15px;
     color: hsl(227, 12%, 61%);
     margin: 30px 0 0 0;
-    width: 330px;
+    max-width: 330px;
+    width: 100%
 }
 
 .differences-info p:first-child {
@@ -209,6 +215,7 @@ body {
     max-width: 1540px;
     margin: -250px auto 0 auto;
     text-align: center;
+    width: 100%;
 }
 
 .quotes-p {
@@ -221,6 +228,7 @@ body {
 .quotes-div {
     display: grid;
     grid-template-columns: 35% 35% 35% 35%;
+    width: 100%;
     overflow: auto;
     grid-gap: 30px;
     padding: 50px 0 0px 0;
@@ -233,6 +241,7 @@ body {
 .quotes {
     background: hsl(0, 0%, 98%);
     padding: 20px 20px 50px 20px;
+    width: 100%;
 }
 
 .quotes img {
@@ -259,7 +268,8 @@ body {
     background: hsl(12, 88%, 59%);
     padding: 14px 30px;
     border-radius: 30px;
-    width: max-content;
+    max-width: max-content;
+    width: 100%;
     margin: 50px auto 0 auto;
     box-shadow: 1px 12px 20px -10px hsl(12, 86%, 67%);
     height: max-content;

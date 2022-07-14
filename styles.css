@@ -11,10 +11,10 @@ body {
 
 .nav-bar {
     width: 100%;
-    background: white;
     position: sticky;
     top: 0;
     z-index: 1000000000000000000000;
+    transition: 0.5s all ease;
 }
 
 .navbar {
@@ -200,7 +200,7 @@ body {
     color: hsl(227, 12%, 61%);
     margin: 30px 0 0 0;
     max-width: 60%;
-    width: 100%
+    width: 100%;
 }
 
 .differences-info p:first-child {
@@ -464,11 +464,11 @@ body {
         line-height: 40px;
     }
     .differences-info p {
-        font-size: 15px;
+        font-size: 15px !important;
         color: hsl(227, 12%, 61%);
         margin: 30px 0 0 0;
-        max-width: 70%;
-        width: 100%
+        max-width: 70% !important;
+        width: 100% !important;
     }
     .quotes-div {
         grid-template-columns: 40% 40% 40% 40%;
@@ -528,8 +528,8 @@ body {
         width: 100%;
     }
     .differences-info p {
-        max-width: 80%;
-        width: 100%;
+        max-width: 80% !important;
+        width: 100% !important;
     }
     .differences-info p:first-child {
         font-size: 35px;
@@ -632,7 +632,7 @@ body {
         margin: -124px auto -300px auto;
         background-size: contain;
         padding: 150px 30px 50px 30px;
-        background-position: 70px 30px;
+        background-position: 70px 0px;
     }
     .intro-text {
         width: 100%;
@@ -702,7 +702,6 @@ body {
     .differences-info p {
         font-size: 16px;
         margin: 20px 0 0 0;
-        max-width: 100%;
         width: 100%;
         text-align: center;
     }

@@ -70,3 +70,13 @@ close.addEventListener("click", () => {
     close.style.display = "none"
     body.style.overflow = ""
 })
+
+let navbar = document.querySelector(".nav-bar")
+
+window.addEventListener('scroll', () => {
+    if (window.scrollY < 50) {
+        navbar.style.backgroundColor = "transparent";
+    } else {
+        navbar.style.backgroundColor = 'white';
+    }
+});

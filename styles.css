@@ -204,7 +204,7 @@ body {
 }
 
 .differences-info p:first-child {
-    font-size: 38px;
+    font-size: 35px;
     color: hsl(228, 39%, 23%);
     margin: 0;
     max-width: 100%;

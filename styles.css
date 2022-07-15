@@ -532,7 +532,7 @@ html {
         width: 100%;
     }
     .differences-info p {
-        max-width: 80% !important;
+        max-width: 100% !important;
         width: 100% !important;
         font-size: 15px !important;
     }
@@ -708,7 +708,7 @@ html {
         text-align: center;
     }
     .differences-info p:first-child {
-        font-size: 35px;
+        font-size: 35px !important;
         line-height: 50px;
         width: 100%;
     }

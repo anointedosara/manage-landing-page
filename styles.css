@@ -9,6 +9,10 @@ body {
     font-family: 'Be Vietnam Pro', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .nav-bar {
     width: 100%;
     position: sticky;
@@ -576,9 +580,6 @@ body {
     .navigation {
         display: none;
     }
-    .nav-logo {
-        z-index: 100000000;
-    }
     .start {
         display: none;
     }
@@ -590,7 +591,7 @@ body {
     .nav {
         position: absolute;
         top: -130vh;
-        left: -130%;
+        left: 0%;
         width: 100%;
         padding: 104px 30px;
         height: 100vh;
@@ -599,7 +600,6 @@ body {
     }
     .top {
         top: 0;
-        left: 0;
     }
     .nav-div {
         background: white;
@@ -686,14 +686,14 @@ body {
         font-size: 15px;
         line-height: 25px;
         margin: 20px 0 30px -68px;
-        width: 135%;
+        width: calc(100% + 68px);
     }
     .track p:first-child {
         line-height: 15px;
-        margin: 0 0 0 -30px;
+        transform: translateX(-30px);
         padding: 15px 0px 14px 45px;
         font-size: 11px;
-        width: 126.1%;
+        width: calc(100% + 60px);
         background: hsl(10, 69%, 95%)
     }
     .differences-info {
@@ -702,7 +702,7 @@ body {
     }
     .differences-info p {
         font-size: 16px;
-        margin: 20px 0 0 0;
+        margin: 10px 0 0 0;
         max-width: 100% !important;
         width: 100% !important;
         text-align: center;
